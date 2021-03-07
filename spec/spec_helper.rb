@@ -1,3 +1,3 @@
 require 'capybara/rspec'
 require './app/app'
-Capybara.app = Mbnb
+Capybara.app = MbnbApp
