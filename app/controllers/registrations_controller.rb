@@ -7,7 +7,13 @@ class  MbnbApp < Sinatra::Base
     end
 
     post '/registrations' do
-        # create a user stuff
+        def create
+        @user = User.new(params[:user])
+        @user.password = params[:password]
+        @user.save!
+        redirect ('/')
+        end
+
     end
 
 end
