@@ -1,5 +1,5 @@
 class  MbnbApp < Sinatra::Base 
-#   register Sinatra::ActiveRecordExtension
+  register Sinatra::ActiveRecordExtension
 
     get '/registrations/new' do
         # Create use 

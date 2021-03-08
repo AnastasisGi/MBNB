@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: MbnbApp_development
+  pool: 2
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: MbnbApp_test
+  pool: 2
